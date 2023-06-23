@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+html {
+  font-family: "Roboto Slab", serif;
+  background-image: url(https://cdn.pixabay.com/photo/2019/05/04/16/55/gambling-4178462_960_720.jpg);
+  background-size: cover;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.container {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 20px;
+  background-color: rgb(1, 80, 33);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 490px;
+  width: 490px;
+}
+
+h1 {
+  font-weight: 900;
+  color: goldenrod;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  color: rgba(2, 79, 2, 0.637);
+}
+
+p {
+  color: white;
+  font-weight: 500;
+}
+
+.start {
+  /* width: 150px;
+  height: 30px; */
+  width: 200px;
+  height: 50px;
+  margin: 0;
+  margin-bottom: -20px;
+
+  border: none;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: goldenrod;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  font-size: 13px;
+}
+
+.start:hover {
+  cursor: pointer;
+  background-color: rgba(255, 223, 39, 0.876);
+  color: black;
+}
+
+.new-card {
+  width: 200px;
+  height: 50px;
+  margin: 0;
+  border: none;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(46, 199, 26);
+  color: black;
+  font-weight: 900;
+  text-align: center;
+  font-size: 13px;
+}
+
+.new-card:hover {
+  cursor: pointer;
+  background-color: rgb(125, 255, 162);
+  color: black;
+}
